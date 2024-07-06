@@ -1,4 +1,4 @@
-# aws-cdk-web-app-example
+# EduLab Application
 
 This is an example of how to build a resilient web application with just 30 lines lines of TypeScript code by using the AWS CDK. It consists of one Amazon Virtual Private Cloud (VPC) with private and public subnets in multiple Availability Zones, in which an Application Load Balancer and an Amazon EC2 Auto Scaling Group are deployed. The Application Load Balancer accepts requests via HTTP (port 80) and forwards them to the instances of the Auto Scaling Group. The Auto Scaling Group is using a Launch Configuration that contains a User Data script to install the Apache HTTP Server and serve a static HTML page.
 
